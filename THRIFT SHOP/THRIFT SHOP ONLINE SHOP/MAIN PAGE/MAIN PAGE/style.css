@@ -20,13 +20,39 @@
   }
 
   header {
-    background: #333;
+    background: #414141;
     color: #fff;
-    padding: 1rem 2rem;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
   }
+
+  .page-name {
+    font-family: "Roboto:ital", sans-serif;
+    letter-spacing: 3px;
+  }
+
+  .page-name-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 2500px;
+  }
+
+  .checkout-container {
+    display:flex-end;
+    justify-items: flex-end;
+  }
+
+  .check-out-logo {
+    display: flex;
+    margin-top: 8px;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(346deg) brightness(107%) contrast(106%);
+  }
+
   #logo {
     height: 50px;
     width: auto;
@@ -101,7 +127,7 @@
 
   .product-image {
     max-width: 100%;
-    height: auto;
+    height: 200px;
     margin-bottom: 1rem;
   }
   .product h3 {
@@ -113,14 +139,17 @@
   .product button {
     background: #333;
     color: #fff;
-    border: none;
+    border: solid;
+    border-width: 1px;
     padding: 0.5rem 1rem;
     cursor: pointer;
     transition: background 0.3s ease;
   }
   .product button:hover {
-    background: #ffd700; /* Gold on hover */
-    color: #333;
+    background: #ffffff; /* Gold on hover */
+    border: solid;
+    border-width: 1px;
+    color: #000000;
   }
 
   .join-thrift {
