@@ -72,10 +72,31 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
   }
 
-  .product-container {
+  .products-containter {
+    max-width: 2500px;
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    align-content: center;
+    grid-template-columns: 300px 300px 300px ;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .svg-container {
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 90px;
+    width: 200px;
+  }
+
+  .svg-colums-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    justify-content: center;
+    max-width: 2500px;
+    margin-top: 50px;
   }
 
   .product-image {
@@ -100,6 +121,52 @@
   .product button:hover {
     background: #ffd700; /* Gold on hover */
     color: #333;
+  }
+
+  .join-thrift {
+    text-align: center;
+    margin-top: 150px;
+  }
+
+  .span-thrift:hover {
+    border: solid;
+    border-width: 1px;
+    padding: 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+
+  .get-off-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .get-off-button {
+    height: 50px;
+    width: 350px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter; 
+    border: solid;
+    border-width: 1px;
+    cursor: pointer;
+  }
+
+  .get-off-button:hover {
+    background-color: white;
+    color: black;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+
+  .perks-container {
+    text-align: center;
   }
 
   /* About Section */
